@@ -3,7 +3,7 @@ From: ubuntu:16.04
 
 %post
     apt-get update
-    apt-get install -y bc gcc gfortran libnetcdf-dev libnetcdff-dev netcdf-bin
+    apt-get install -y git vim bc gcc gfortran libnetcdf-dev libnetcdff-dev netcdf-bin
 
 %environment
     export NETCDF_HOME=/usr
